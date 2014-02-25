@@ -1,0 +1,1547 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"strateg",
+				"strategy"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"coo",
+				"coords"
+			],
+			[
+				"rewa",
+				"reward_from_dist"
+			],
+			[
+				"add",
+				"add_horizontal_connections"
+			],
+			[
+				"set",
+				"set_off_diag"
+			],
+			[
+				"dis",
+				"disposition"
+			],
+			[
+				"big",
+				"big_num"
+			],
+			[
+				"u",
+				"up"
+			],
+			[
+				"to",
+				"to_goal"
+			],
+			[
+				"d",
+				"dsp	disp sprintf"
+			],
+			[
+				"correc",
+				"correct"
+			],
+			[
+				"error",
+				"error_message"
+			],
+			[
+				"err",
+				"error	error"
+			],
+			[
+				"de",
+				"dlmwrite	dlmwrite"
+			],
+			[
+				"e",
+				"error	error"
+			],
+			[
+				"arg",
+				"argc"
+			],
+			[
+				"cl",
+				"clang_next"
+			],
+			[
+				"_",
+				"_file"
+			],
+			[
+				"ex",
+				"exit  (function)"
+			],
+			[
+				"seq",
+				"sequenceGenerator"
+			],
+			[
+				"get",
+				"getImagePos"
+			],
+			[
+				"image",
+				"imageLeftName"
+			],
+			[
+				"Utils",
+				"Utils::parseImageName"
+			],
+			[
+				"_image",
+				"_imagePosY"
+			],
+			[
+				"fol",
+				"foLaser"
+			],
+			[
+				"angle",
+				"angleOfCamera"
+			],
+			[
+				"Res",
+				"ResultWriter"
+			],
+			[
+				"date",
+				"dateOfData"
+			],
+			[
+				"Fa",
+				"FAIL"
+			],
+			[
+				"E",
+				"ENDC"
+			],
+			[
+				"time",
+				"timeOfData"
+			],
+			[
+				"spli",
+				"split"
+			],
+			[
+				"pa",
+				"pathToDataFolder"
+			],
+			[
+				"path",
+				"pathToDataFolder"
+			],
+			[
+				"y",
+				"y"
+			],
+			[
+				"xLis",
+				"xListInterp"
+			],
+			[
+				"laseLi",
+				"laserListAngle"
+			],
+			[
+				"laser",
+				"laserListBeamNum"
+			],
+			[
+				"laserL",
+				"laserListAngle"
+			],
+			[
+				"parse",
+				"parseLasers"
+			],
+			[
+				"curr",
+				"currDiff"
+			],
+			[
+				"carme",
+				"carmenLines"
+			],
+			[
+				"cou",
+				"counterImages"
+			],
+			[
+				"counter",
+				"counterImages"
+			],
+			[
+				"coun",
+				"counterLaser"
+			],
+			[
+				"lase",
+				"laserListBeamNum"
+			],
+			[
+				"Ut",
+				"Utils::parseImageName"
+			],
+			[
+				"media",
+				"medianY"
+			],
+			[
+				"the",
+				"theta"
+			],
+			[
+				"fov",
+				"fovStart"
+			],
+			[
+				"utils",
+				"utils"
+			],
+			[
+				"vec",
+				"vector	std::vector"
+			],
+			[
+				"rec",
+				"rect"
+			],
+			[
+				"x",
+				"xVec"
+			],
+			[
+				"tempG",
+				"tempGpsX"
+			],
+			[
+				"pu",
+				"push_back"
+			],
+			[
+				"tem",
+				"tempImageName"
+			],
+			[
+				"co",
+				"cout"
+			],
+			[
+				"an",
+				"angle"
+			],
+			[
+				"sp",
+				"split"
+			],
+			[
+				"c",
+				"curr"
+			],
+			[
+				"retur",
+				"return"
+			],
+			[
+				"las",
+				"laserLogFileName"
+			],
+			[
+				"gps",
+				"gps_point"
+			],
+			[
+				"end",
+				"end_pos"
+			],
+			[
+				"IMAGE",
+				"IMAGE_NAME"
+			],
+			[
+				"file",
+				"fileName"
+			],
+			[
+				"fil",
+				"fileName"
+			],
+			[
+				"ve",
+				"vector"
+			],
+			[
+				"out",
+				"outFileName"
+			],
+			[
+				"temp",
+				"tempLaserListX"
+			],
+			[
+				"start",
+				"startAngle"
+			],
+			[
+				"split",
+				"splitLine"
+			],
+			[
+				"num",
+				"numBeams"
+			],
+			[
+				"f",
+				"fo"
+			],
+			[
+				"thet",
+				"thetaList"
+			],
+			[
+				"siz",
+				"size	size"
+			],
+			[
+				"all",
+				"allImageNames"
+			],
+			[
+				"fou",
+				"foundRectsWithNames"
+			],
+			[
+				"Seq",
+				"SequenceGenerator"
+			],
+			[
+				"Orde",
+				"OrderType"
+			],
+			[
+				"_max",
+				"_maxIndex"
+			],
+			[
+				"_s",
+				"_startIndex"
+			],
+			[
+				"log",
+				"logfile"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"Ve",
+				"Vec3f"
+			],
+			[
+				"cv",
+				"cv::Vec3f"
+			],
+			[
+				"ima",
+				"imageLeftName"
+			],
+			[
+				"camer",
+				"cameraParams"
+			],
+			[
+				"ce",
+				"centralCol"
+			],
+			[
+				"cent",
+				"centralRow"
+			],
+			[
+				"str",
+				"str	str"
+			],
+			[
+				"getT",
+				"getTestExamples"
+			],
+			[
+				"ra",
+				"randIndex"
+			],
+			[
+				"si",
+				"size	size"
+			],
+			[
+				"genera",
+				"generateSequences"
+			],
+			[
+				"s",
+				"size	size"
+			],
+			[
+				"un",
+				"underscorePos"
+			],
+			[
+				"size",
+				"size_t"
+			],
+			[
+				"LO",
+				"Logger::instance"
+			],
+			[
+				"le",
+				"leftRightNamesMap"
+			],
+			[
+				"sub",
+				"substr"
+			],
+			[
+				"bum",
+				"bumblebee_camera_params"
+			],
+			[
+				"depth",
+				"depthEstimator"
+			],
+			[
+				"_de",
+				"_depthMap"
+			],
+			[
+				"getDe",
+				"getDepthFromDisparity"
+			],
+			[
+				"CV_",
+				"CV_32F"
+			],
+			[
+				"su",
+				"substr"
+			],
+			[
+				"find",
+				"find_last_of"
+			],
+			[
+				"val",
+				"validExtensions"
+			],
+			[
+				"st",
+				"str	str"
+			],
+			[
+				"img",
+				"imgDisparity16S"
+			],
+			[
+				"comm",
+				"comm-block	Comment - Block style comment"
+			],
+			[
+				"CV",
+				"CV_LOAD_IMAGE_GRAYSCALE"
+			],
+			[
+				"dep",
+				"depthEstimator"
+			],
+			[
+				"De",
+				"DepthEstimator"
+			],
+			[
+				"dire",
+				"directoryParser"
+			],
+			[
+				"getde",
+				"getDepthImageName"
+			],
+			[
+				"col",
+				"colorImageName"
+			],
+			[
+				"CAR",
+				"CarDetector::LEAVE_OLD_MODEL"
+			],
+			[
+				"O",
+				"OVERWRITE_MODEL"
+			],
+			[
+				"over",
+				"overwriteModel"
+			],
+			[
+				"load",
+				"loadModel"
+			],
+			[
+				"model",
+				"modelPath"
+			],
+			[
+				"save",
+				"saveModel"
+			],
+			[
+				"testImage_c",
+				"testImage_cpu_rgba"
+			],
+			[
+				"tes",
+				"testImage_cpu"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "formulate_problem.m",
+			"settings":
+			{
+				"buffer_size": 1530,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "solve_mdp.m",
+			"settings":
+			{
+				"buffer_size": 1196,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "form_cell_arrays.m",
+			"settings":
+			{
+				"buffer_size": 592,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "set_off_diag.m",
+			"settings":
+			{
+				"buffer_size": 158,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "add_vertical_connections.m",
+			"settings":
+			{
+				"buffer_size": 613,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "add_horizontal_connections.m",
+			"settings":
+			{
+				"buffer_size": 1170,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "%% carry_out_strategy: this is a function to carry out\n%% the strategy when we have a policy\nfunction [...] = carry_out_strategy(policy, P, R, GroundTruth, Observations, coords)\n	% set the start state to 1\n	StartState = 1;\n	flag = 1; \n	while flag > 0\n		NextState = \n	end\nend\n",
+			"file": "carry_out_strategy.m",
+			"file_size": 228,
+			"file_write_time": 130378220821580314,
+			"settings":
+			{
+				"buffer_size": 275,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/igor/Matlab 8.01.desktop",
+			"settings":
+			{
+				"buffer_size": 284,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "reward_from_dist.m",
+			"settings":
+			{
+				"buffer_size": 282,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
+	"command_palette":
+	{
+		"height": 400.0,
+		"selected_items":
+		[
+			[
+				"snipp",
+				"Snippet: ^"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"gits",
+				"Git: Status"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"togg",
+				"View: Toggle Menu"
+			],
+			[
+				"proje",
+				"Project: Close"
+			],
+			[
+				"save",
+				"Project: Save As"
+			],
+			[
+				"isntal",
+				"Package Control: Install Package"
+			],
+			[
+				"tog",
+				"View: Toggle Menu"
+			],
+			[
+				"isnta",
+				"Package Control: Install Package"
+			],
+			[
+				"check",
+				"LaTeXing: Check System"
+			],
+			[
+				"clang",
+				"Package Control: Enable Package"
+			],
+			[
+				"lin",
+				"SublimeLinter: Disable Linter"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"commi",
+				"Git: Commit"
+			],
+			[
+				"commit",
+				"Git: Commit"
+			],
+			[
+				"lint",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"linter",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"com",
+				"Git: Commit"
+			],
+			[
+				"add",
+				"Git: Add..."
+			],
+			[
+				"stat",
+				"Git: Status"
+			],
+			[
+				"pu",
+				"Git: Push"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"git",
+				"Git: Commit"
+			],
+			[
+				"sublimeClang",
+				"Preferences: SublimeClang Settings – Default"
+			],
+			[
+				"mark",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"intel",
+				"SublimeCodeIntel: Disable Plugin"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"vmen",
+				"View: Toggle Menu"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: pair"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"git co",
+				"Git: Commit"
+			],
+			[
+				"git pus",
+				"Git: Push"
+			],
+			[
+				"gitstat",
+				"Git: Status"
+			]
+		],
+		"width": 547.0
+	},
+	"console":
+	{
+		"height": 250.0,
+		"history":
+		[
+			"ls",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"cpplint",
+			"lint",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/igor/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/igor/.config/sublime-text-3/Packages/Terminal/Default (Linux).sublime-keymap",
+		"/home/igor/Work/Thesis/MiscCode/MDP_Planner/parkings_graph.dat",
+		"/home/igor/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/igor/Work/Thesis/MiscCode/MDP_Planner/read_parking_lots.m",
+		"/home/igor/Work/Thesis/Text/thesis/thesis.tex",
+		"/home/igor/Work/Thesis/Text/thesis/ramsstyle.sty",
+		"/home/igor/todo.txt",
+		"/home/igor/Work/Thesis/Text/Test/main.tex",
+		"/home/igor/Work/Thesis/Text/Test/Thesis.cls",
+		"/home/igor/Work/Thesis/Text/related_works.tex",
+		"/home/igor/.vimrc",
+		"/usr/include/c++/4.6/bits/stringfwd.h",
+		"/home/igor/.config/sublime-text-3/Packages/User/SublimeClang.sublime-settings",
+		"/home/igor/.config/sublime-text-3/Packages/SublimeClang/SublimeClang.sublime-settings",
+		"/home/igor/.config/sublime-text-3/Packages/User/Markdown.sublime-settings",
+		"/home/igor/Work/Thesis/MiscCode/HOGclassifier/source/feature_detector_cpu.h",
+		"/home/igor/Work/Thesis/MiscCode/HOGclassifier/source/feature_detector.cpp",
+		"/usr/include/c++/4.6/iostream",
+		"/usr/include/c++/4.7/iostream",
+		"/usr/include/c++/4.6.3/iostream",
+		"/home/igor/Work/Thesis/MiscCode/HOGclassifier/list.todo",
+		"/home/igor/.config/sublime-text-3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/home/igor/Work/Thesis/MiscCode/HOGclassifier/source/main.cpp",
+		"/home/igor/Work/Thesis/MiscCode/HOGclassifier/source/feature_detector.h",
+		"/home/igor/Work/Thesis/MiscCode/HOGclassifier/source/temp_result_writer.cpp",
+		"/home/igor/.config/sublime-text-3/Packages/Git/Git.sublime-settings",
+		"/home/igor/.config/sublime-text-3/Packages/SublimeClang/Default.sublime-keymap",
+		"/home/igor/Work/Thesis/MiscCode/PythonScripts/find_positions_for_images.py",
+		"/home/igor/.config/sublime-text-3/Packages/PlainTasks/messages/Tutorial.todo",
+		"/home/igor/Work/Thesis/MiscCode/HOGclassifier/README.md",
+		"/home/igor/Work/Thesis/MiscCode/HOGclassifier/source/lasers_parser.cpp",
+		"/home/igor/Work/Thesis/MiscCode/HOGclassifier/source/temp_result_writer.h",
+		"/home/igor/Work/Thesis/MiscCode/HOGclassifier/source/lasers_parser.h",
+		"/home/igor/Work/Thesis/MiscCode/HOGclassifier/source/logger.h",
+		"/home/igor/Work/Thesis/MiscCode/HOGclassifier/source/logger.cpp",
+		"/home/igor/.codeintel/codeintel.log",
+		"/home/igor/.config/sublime-text-3/Packages/WhoCalled Function Finder/WhoCalled.sublime-settings",
+		"/home/igor/.config/sublime-text-3/Packages/WhoCalled Function Finder/README.md",
+		"/home/igor/Work/Thesis/MiscCode/PythonScripts/gps_for_each_image_log_5.txt",
+		"/home/igor/Work/Thesis/MiscCode/HOGclassifier/source/utils.h",
+		"/home/igor/Work/Thesis/MiscCode/HOGclassifier/Result/car_pos_log.dat",
+		"/home/igor/Work/Thesis/MiscCode/HOGclassifier/source/CMakeLists.txt",
+		"/home/igor/Work/Thesis/MiscCode/PythonScripts/laser_points_5.txt",
+		"/home/igor/Work/Thesis/MiscCode/HOGclassifier/source/car_detector.cpp",
+		"/home/igor/Work/Thesis/MiscCode/HOGclassifier/source/feature_detector_cpu.cpp",
+		"/home/igor/logs/log_5_12_2013_____10_52_19/log_5_12_2013_____10_52_19-carmen.log",
+		"/home/igor/Work/Thesis/MiscCode/PythonScripts/laser_points_9.txt",
+		"/home/igor/Work/Thesis/MiscCode/HOGclassifier/Result/car_rects_log.dat",
+		"/home/igor/Work/Thesis/MiscCode/HOGclassifier/source/depth_estimator.h",
+		"/home/igor/Work/Thesis/MiscCode/HOGclassifier/source/bumblebee_camera_params.h",
+		"/home/igor/Work/Thesis/MiscCode/HOGclassifier/source/depth_estimator.cpp",
+		"/home/igor/logs/log_9_12_2013_____11_25_46/result-gps.gm2dl",
+		"/home/igor/Work/Thesis/MiscCode/HOGclassifier/source/gps_point.h",
+		"/home/igor/Work/Thesis/MiscCode/HOGclassifier/source/sequence_generator.h",
+		"/home/igor/Work/Thesis/MiscCode/PythonScripts/gps_for_each_image_log.txt",
+		"/home/igor/Work/Thesis/MiscCode/HOGclassifier/source/sequence_generator.cpp",
+		"/home/igor/Work/Thesis/MiscCode/PythonScripts/shift_to_zero.py",
+		"/home/igor/Work/Thesis/MiscCode/HOGclassifier/source/svm.cpp",
+		"/home/igor/Work/Thesis/MiscCode/HOGclassifier/source/HOGclassifier.sublime-project",
+		"/home/igor/Work/Thesis/MiscCode/PythonScripts/laser_points.txt",
+		"/home/igor/Work/Thesis/MiscCode/PythonScripts/gps_images_for_gnuplot.txt",
+		"/home/igor/logs/log_5_12_2013_____10_52_19/img_temp/timestamps.txt",
+		"/home/igor/conky-manager/themes/LSD/config/LSD",
+		"/home/igor/Work/Thesis/MiscCode/PythonScripts/log_images_gps_freiburg.txt",
+		"/home/igor/Work/Thesis/MiscCode/HOGclassifier/source/car_detector.h",
+		"/home/igor/Work/Thesis/MiscCode/RectifyBumblebee/bumblebee-11123871.cal",
+		"/home/igor/Work/Thesis/MiscCode/HOGclassifier/source/svm_binder.cpp",
+		"/home/igor/Work/Thesis/MiscCode/HOGclassifier/source/svm_binder.h",
+		"/home/igor/newFreiburgDataLog.alog",
+		"/home/igor/Work/Thesis/MiscCode/PythonScripts/create_log.py",
+		"/home/igor/Work/Thesis/MiscCode/HOGclassifier/source/directory_parser.h",
+		"/home/igor/Work/Thesis/MiscCode/HOGclassifier/source/feature_detector_gpu.cpp",
+		"/home/igor/Work/Thesis/MiscCode/HOGclassifier/source/feature_detector_gpu.h",
+		"/home/igor/Work/Thesis/MiscCode/HOGclassifier/source/directory_parser.cpp",
+		"/home/igor/Work/Thesis/MiscCode/HOGclassifier/CMakeLists.txt",
+		"/home/igor/MyProjects/InformationRetrieval/ib31/exercise-sheet-02/feedback-tutor.txt",
+		"/home/igor/.config/sublime-text-3/Packages/User/make.sublime-build",
+		"/home/igor/Downloads/KML_Samples.kml",
+		"/home/igor/Work/Thesis/MiscCode/HOGclassifier/Result/log.dat",
+		"/home/igor/Work/Thesis/MiscCode/DepthFromStereo/SBM_Sample.cpp",
+		"/home/igor/test.txt",
+		"/home/igor/Work/Thesis/MiscCode/HOGclassifier/build/output_log.dat",
+		"/home/igor/MyProjects/InformationRetrieval/ib31/exercise-sheet-01/src/InvertedIndexTest.java",
+		"/home/igor/MyProjects/InformationRetrieval/ib31/exercise-sheet-01/src/InvertedIndex.java",
+		"/home/igor/MyProjects/InformationRetrieval/ib31/exercise-sheet-01/InvertedIndexTest.Records.tsv",
+		"/home/igor/MyProjects/InformationRetrieval/ib31/exercise-sheet-01/feedback-tutor.txt",
+		"/home/igor/ExternalLibs/opencv-2.4.6.1/modules/gpu/src/cuda/hog.cu",
+		"/home/igor/MyProjects/StarDict/ja/lingo/engine/dictionaryindex/reader/DataResolver.java",
+		"/home/igor/MyProjects/StarDict/ja/lingo/engine/dictionaryindex/reader/DataSource.java",
+		"/home/igor/MyProjects/StarDict/ja/lingo/engine/dictionaryindex/reader/DictionaryIndex.java",
+		"/home/igor/MyProjects/StarDict/ja/lingo/engine/dictionaryindex/reader/IDataSource.java",
+		"/home/igor/MyProjects/StarDict/ja/lingo/engine/dictionaryindex/reader/IDictionaryIndex.java",
+		"/home/igor/MyProjects/StarDict/ja/lingo/engine/dictionaryindex/reader/IIndexSource.java",
+		"/home/igor/MyProjects/StarDict/ja/lingo/engine/dictionaryindex/reader/IndexSource.java",
+		"/home/igor/MyProjects/StarDict/ja/lingo/engine/dictionaryindex/reader/ITokenReader.java",
+		"/home/igor/MyProjects/StarDict/ja/lingo/engine/dictionaryindex/reader/ReaderFormat.java",
+		"/home/igor/MyProjects/StarDict/ja/lingo/engine/dictionaryindex/reader/TokenReader.java",
+		"/home/igor/MyProjects/StarDict/ja/lingo/engine/reader/Readers.java",
+		"/home/igor/MyProjects/StarDict/ja/lingo/engine/reader/BaseParser.java",
+		"/home/igor/MyProjects/StarDict/ja/lingo/application/util/articlelist/AArticleListModel.java",
+		"/home/igor/MyProjects/StarDict/ja/lingo/application/util/articlelist/ArticleList.java",
+		"/home/igor/MyProjects/StarDict/ja/lingo/application/util/articlelist/ArticleListMenu.java",
+		"/home/igor/MyProjects/StarDict/ja/lingo/application/util/articlelist/ArticlesListModel.java",
+		"/home/igor/MyProjects/StarDict/ja/lingo/application/util/articlelist/IArticleListMenuSupport.java",
+		"/home/igor/MyProjects/StarDict/ja/lingo/application/util/articlelist/MutableArticleListModel.java",
+		"/home/igor/MyProjects/StarDict/com/xduke/xswing/DataTipCell.java",
+		"/home/igor/MyProjects/StarDict/com/xduke/xswing/DataTipComponent.java",
+		"/home/igor/MyProjects/StarDict/com/xduke/xswing/DataTipListener.java",
+		"/home/igor/MyProjects/StarDict/com/xduke/xswing/DataTipManager.java",
+		"/home/igor/MyProjects/StarDict/com/xduke/xswing/DataTipPopup.java",
+		"/home/igor/MyProjects/StarDict/com/xduke/xswing/ListDataTipCell.java",
+		"/home/igor/MyProjects/StarDict/com/xduke/xswing/ListDataTipListener.java",
+		"/home/igor/Work/Thesis/MiscCode/HOGclassifier/pos/degree_0/.model",
+		"/home/igor/Downloads/people.tsv",
+		"/home/igor/Work/Thesis/MiscCode/RectifyBumblebee/bumblebeeRectify.cpp",
+		"/home/igor/Work/Thesis/MiscCode/RectifyBumblebee/bumblebeeRectify.h",
+		"/tmp/bash-fc-1382437184",
+		"/home/igor/Work/Thesis/MiscCode/HOGclassifier/build/source/CMakeFiles/train_and_predict.dir/CXX.includecache",
+		"/home/igor/Work/Thesis/MiscCode/HOGclassifier/build/source/CMakeFiles/temp_result_writer_lib.dir/CXX.includecache",
+		"/home/igor/Work/Thesis/MiscCode/HOGclassifier/build/source/CMakeFiles/car_detection_lib.dir/CXX.includecache",
+		"/home/igor/Work/Thesis/CarData/DataFromGoogleImages/google.sh",
+		"/home/igor/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/igor/Work/Thesis/MiscCode/HOGclassifier/source/svm.h",
+		"/home/igor/Work/Thesis/MiscCode/trainHOG/main.cpp",
+		"/home/igor/.config/sublime-text-3/Packages/User/pair.sublime-snippet",
+		"/home/igor/.config/sublime-text-3/Packages/User/cstr.sublime-snippet",
+		"/home/igor/Work/Thesis/CarData/DataFromGoogleImages/getimages.sh"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"values",
+			"parking_rows",
+			"indeces",
+			"cost",
+			"costs",
+			"indicators",
+			"disposition",
+			"right",
+			"P",
+			"-car_cost",
+			"left",
+			"up",
+			"5",
+			"2",
+			"4",
+			"3",
+			"1",
+			"t",
+			"angle",
+			"90",
+			"_file",
+			"LogFile",
+			"logfile",
+			"LogFile",
+			"logfile",
+			"folder",
+			"OKGREEN",
+			"timeOfData",
+			"/home/igor/logs/log_15_1_2014_____16_20_41",
+			"log_5_12_2013_____10_52_19",
+			"rawLaserList",
+			"rows",
+			"parseImageName",
+			"log_11_12_2013_____14_12_34",
+			"log_9_12_2013_____11_25_46",
+			"fovStart",
+			"float",
+			"X",
+			"float",
+			"std::string",
+			"s",
+			"log_6_12_2013_____11_25_14",
+			"log_5_12_2013_____10_52_19",
+			"log_11_12_2013_____14_12_34",
+			"yList",
+			"xList",
+			"log_11_12_2013_____11_25_46",
+			"log_9_12_2013_____11_25_46",
+			"log_5_12_2013_____10_52_19",
+			"x",
+			"log_9_12_2013_____11_25_46",
+			"log_6_12_2013_____11_25_14",
+			"log_5_12_2013_____10_52_19",
+			"size",
+			"2",
+			"testDirName",
+			"logfile",
+			"// ",
+			"Foobar",
+			"max",
+			"startIndex",
+			"_startIndex",
+			"pixels",
+			"CV_32F",
+			"getDepthMedian",
+			"scores",
+			"imageLeftName",
+			"name",
+			"image",
+			"imgDisparity16S",
+			"imgLeft",
+			"number",
+			"imageName",
+			"Found",
+			"feature_detector",
+			"h",
+			"feature_detector",
+			"FeatureDetector",
+			"_hogTestCpu",
+			"FEATURE_DETECTOR_H",
+			"detectMultiScaleCpu",
+			"detectMultiScaleGpu",
+			"setTestHogFromHyperplane",
+			"str",
+			"unordered_map",
+			"std::multimap",
+			"squarePosDirs",
+			"degree_0",
+			"sampleShape",
+			"Train",
+			"Camera",
+			"Image",
+			"[i]",
+			"temp_result_writer",
+			"SVR_Q",
+			"svm_predict_values",
+			"this->getModel()",
+			"singleDetectorVector",
+			"TODO",
+			"i",
+			"Kernel",
+			"SVR_Q",
+			"solve_epsilon_svr",
+			"svm_train_one",
+			"svm_train",
+			"setProblemTrain",
+			"kernel_function",
+			"Solve",
+			"svm_node",
+			"dot",
+			"kernel_function",
+			"SVR_Q",
+			"Solve",
+			"solve_epsilon_svr",
+			"svm_train_one",
+			"svm_train",
+			"setProblemTrain",
+			"Point",
+			"_trainHog",
+			"Rect",
+			"_hog",
+			"imageFilename",
+			"Mat",
+			"Size",
+			"TRA",
+			"pos_left",
+			"HistType",
+			"histogram_"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"std::multimap",
+			"cv::Size",
+			"hogs",
+			"vector<float> ",
+			"hog_classifier"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 7,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "formulate_problem.m",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1530,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								713,
+								713
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Matlab/Matlab.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "solve_mdp.m",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1196,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								928,
+								928
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Matlab/Matlab.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "form_cell_arrays.m",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 592,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								332,
+								332
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Matlab/Matlab.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "set_off_diag.m",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 158,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								157,
+								157
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Matlab/Matlab.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "add_vertical_connections.m",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 613,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								613,
+								613
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Matlab/Matlab.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "add_horizontal_connections.m",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1170,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1169,
+								1169
+							]
+						],
+						"settings":
+						{
+							"highlight_line": false,
+							"syntax": "Packages/Matlab/Matlab.tmLanguage",
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"_vintageous_gluing_sequence": false,
+								"_vintageous_input_parsers":
+								[
+								],
+								"_vintageous_non_interactive": false,
+								"action": null,
+								"action_count": "",
+								"capture_register": false,
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"repeat_data":
+								[
+									"native",
+									[
+										"sequence",
+										{
+											"commands":
+											[
+												[
+													"_vi_c",
+													{
+														"count": 1,
+														"mode": "mode_internal_normal",
+														"motion":
+														{
+															"motion": "_vi_w",
+															"motion_args":
+															{
+																"count": 1,
+																"mode": "mode_internal_normal"
+															}
+														}
+													}
+												],
+												[
+													"insert",
+													{
+														"characters": "left"
+													}
+												],
+												[
+													"unindent",
+													null
+												]
+											]
+										}
+									],
+									"mode_insert",
+									null
+								],
+								"sequence": "",
+								"user_input": "",
+								"xpos": 31
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "carry_out_strategy.m",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 275,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								265,
+								265
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Matlab/Matlab.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/home/igor/Matlab 8.01.desktop",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 284,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "reward_from_dist.m",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 282,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								281,
+								281
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Matlab/Matlab.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.clang":
+	{
+		"height": 159.0
+	},
+	"output.clang_static_analyzer":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 249.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 112.0
+	},
+	"output.git-commit":
+	{
+		"height": 112.0
+	},
+	"output.git-push":
+	{
+		"height": 112.0
+	},
+	"output.markdown":
+	{
+		"height": 112.0
+	},
+	"project": "mdp_planner.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/MyProjects/InformationRetrieval/ib31/exercise-sheet-02/src/ex2.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 79.0,
+		"selected_items":
+		[
+			[
+				"show",
+				"showDetections"
+			],
+			[
+				"median",
+				"getMedian"
+			]
+		],
+		"width": 759.0
+	},
+	"settings":
+	{
+		"_vintageous_last_buffer_search": "costs",
+		"_vintageous_last_character_search": "{",
+		"_vintageous_last_character_search_forward": true,
+		"_vintageous_reset_during_init": true,
+		"vintage":
+		{
+			"_cmdline_cd": "/home/igor/.config/sublime-text-3/Packages"
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 233.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

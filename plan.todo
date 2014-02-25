@@ -1,0 +1,5 @@
+Small todo:
+  ☐ Run the planning code not once, but more time, always updating the Observations matrix;
+  ☐ Add visualization of the planning algorithm in terms of how we should move around the parking lot.
+  ☐ Maybe write a nice ground truth generator;
+  ☐ Compare the results (if can think about some other planner);
