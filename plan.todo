@@ -1,5 +1,7 @@
 Small todo:
-  ☐ Run the planning code not once, but more time, always updating the Observations matrix;
-  ☐ Add visualization of the planning algorithm in terms of how we should move around the parking lot.
+  ✔ Run the planning code not once, but more time, always updating the Observations matrix; @started(14-02-26 13:41) @done (14-02-26 14:58) @lasted(1:17:00)
+  ✔ Add visualization of the planning algorithm in terms of how we should move around the parking lot. @started(14-02-26 15:00) @done (14-02-26 15:14) @lasted(0:14:00)
   ☐ Maybe write a nice ground truth generator;
+  ☐ Ground truth from real data needed
+Further work:
   ☐ Compare the results (if can think about some other planner);

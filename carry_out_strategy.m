@@ -1,13 +1,9 @@
 %% carry_out_strategy: this is a function to carry out
 %% the strategy when we have a Policy
-function [StatesVisited, P, parked] = carry_out_strategy(StartState, Policy, P)
+function [StatesVisited, P, parked] = carry_out_strategy(GroundTruth, StartState, Policy, P)
 
 	global OCCUPIED FREE
 	global TO_GOAL
-
-	% for now generate the ground truth also here
-	GroundTruth = zeros(size(Policy));
-	GroundTruth(50:end) = OCCUPIED;
 
 	Observations = zeros(size(Policy)) .- 1;
 
@@ -19,6 +15,9 @@ function [StatesVisited, P, parked] = carry_out_strategy(StartState, Policy, P)
 		StatesVisited = [StatesVisited CurrentState];
 		CurrentAction = Policy(CurrentState);
 		if (CurrentAction == TO_GOAL && GroundTruth(CurrentState) == FREE) 
+			% add a goal state to drawing
+			disp('TRYING TO PARK!!!')
+			StatesVisited = [StatesVisited 181];
 			parked = true;
 		elseif (CurrentAction == TO_GOAL && GroundTruth(CurrentState) == OCCUPIED)
 			% we should update the matrix after this
@@ -27,7 +26,6 @@ function [StatesVisited, P, parked] = carry_out_strategy(StartState, Policy, P)
 			P = update_occupancy_prob(StatesVisited, GroundTruth, P);
 			break;
 		else
-			disp(CurrentState)
 			ProbVector = P{CurrentAction}(CurrentState, :);
 			Index = find(ProbVector);
 			if (length(Index) > 1)

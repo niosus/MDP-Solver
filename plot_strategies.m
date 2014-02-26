@@ -1,5 +1,5 @@
 %% plot_strategies: a function to plot 
-function plot_strategies(Coords, Goal, Policy, P)
+function plot_strategies(Coords, Goal, Policy, P, VisitedStates)
 
 	global UP DOWN LEFT RIGHT
 	global TO_GOAL
@@ -22,6 +22,7 @@ function plot_strategies(Coords, Goal, Policy, P)
 	h = quiver (CoordsMat(:,1), CoordsMat(:,2), sin(angles), cos(angles), 2);
 	set (h, 'maxheadsize', 0.2);
 	h = scatter(CoordsMat(:,1), CoordsMat(:,2), 10, color, 'filled');
+	h = plot(CoordsMat(VisitedStates,1), CoordsMat(VisitedStates,2), 'g-', 'linewidth', 2);
 	hold off;
 	waitforbuttonpress ();
 	% axis ([871900, 872000, 6077450, 6077550]);
