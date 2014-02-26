@@ -2,15 +2,11 @@
 % This function formulates the problem for further
 % use with the MDP{1} solver
 
-function [P, R, coords] = formulate_problem(filename, car_cost)
-    [coords, occupancy_vector, P, R, gap_period, parking_rows, parking_cols] = form_cell_arrays(filename);
+function [P, R, coords, goal] = formulate_problem(filename, car_cost)
 
-    % define directions for actions:
-    up = 1;
-    down = 2;
-    right = 3;
-    left = 4;
-    to_goal = 5;
+    global TO_GOAL LEFT RIGHT UP DOWN
+
+    [coords, occupancy_vector, P, R, gap_period, parking_rows, parking_cols] = form_cell_arrays(filename);
     
     % vertical connections
     [P, R] = add_vertical_connections(P, R, parking_rows, car_cost);
@@ -26,14 +22,14 @@ function [P, R, coords] = formulate_problem(filename, car_cost)
     % now add a vector with rewards for reaching goal
     rewards = reward_from_dist(coords, goal);
 
-    % append rewards to R{to_goal} as a column
-    R{to_goal} = [R{to_goal} rewards'];     
+    % append rewards to R{TO_GOAL} as a column
+    R{TO_GOAL} = [R{TO_GOAL} rewards'];     
 
     % set "park" action probabilities
-    P{to_goal} += diag(1 - occupancy_vector);
-    P{to_goal} = [P{to_goal} occupancy_vector']; 
+    P{TO_GOAL} += diag(1 - occupancy_vector);
+    P{TO_GOAL} = [P{TO_GOAL} occupancy_vector']; 
     
-    rsize = size(R{to_goal});
+    rsize = size(R{TO_GOAL});
     rsize(1) += 1; % increment size
     for i = 1:5
         R{i} = resize(R{i}, rsize);
@@ -44,9 +40,9 @@ function [P, R, coords] = formulate_problem(filename, car_cost)
         R{i} = sparse(R{i});
         P{i} = sparse(P{i});
     end
-    P{to_goal}(end,end) = 1;
-    P{left}(end,end) = 1;
-    P{right}(end,end) = 1;
-    P{down}(end,end) = 1;
-    P{up}(end,end) = 1;
+    P{TO_GOAL}(end,end) = 1;
+    P{LEFT}(end,end) = 1;
+    P{RIGHT}(end,end) = 1;
+    P{DOWN}(end,end) = 1;
+    P{UP}(end,end) = 1;
 end

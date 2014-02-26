@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"zero",
+				"zeros	zeros(m,n)"
+			],
+			[
+				"Curr",
+				"CurrentState"
+			],
+			[
+				"Curren",
+				"CurrentState"
+			],
+			[
+				"if",
+				"ifeif	if … elseif … end"
+			],
+			[
 				"strateg",
 				"strategy"
 			],
@@ -498,32 +514,33 @@
 			[
 				"load",
 				"loadModel"
-			],
-			[
-				"model",
-				"modelPath"
-			],
-			[
-				"save",
-				"saveModel"
-			],
-			[
-				"testImage_c",
-				"testImage_cpu_rgba"
-			],
-			[
-				"tes",
-				"testImage_cpu"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "formulate_problem.m",
+			"file": "carry_out_strategy.m",
 			"settings":
 			{
-				"buffer_size": 1530,
+				"buffer_size": 1101,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "plan.todo",
+			"settings":
+			{
+				"buffer_size": 318,
+				"line_ending": "Unix",
+				"name": "todo.txt"
+			}
+		},
+		{
+			"file": "/home/igor/.config/sublime-text-3/Packages/PlainTasks/messages/Tutorial.todo",
+			"settings":
+			{
+				"buffer_size": 3341,
 				"line_ending": "Unix"
 			}
 		},
@@ -531,7 +548,15 @@
 			"file": "solve_mdp.m",
 			"settings":
 			{
-				"buffer_size": 1196,
+				"buffer_size": 1237,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "formulate_problem.m",
+			"settings":
+			{
+				"buffer_size": 1530,
 				"line_ending": "Unix"
 			}
 		},
@@ -568,25 +593,6 @@
 			}
 		},
 		{
-			"contents": "%% carry_out_strategy: this is a function to carry out\n%% the strategy when we have a policy\nfunction [...] = carry_out_strategy(policy, P, R, GroundTruth, Observations, coords)\n	% set the start state to 1\n	StartState = 1;\n	flag = 1; \n	while flag > 0\n		NextState = \n	end\nend\n",
-			"file": "carry_out_strategy.m",
-			"file_size": 228,
-			"file_write_time": 130378220821580314,
-			"settings":
-			{
-				"buffer_size": 275,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/igor/Matlab 8.01.desktop",
-			"settings":
-			{
-				"buffer_size": 284,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "reward_from_dist.m",
 			"settings":
 			{
@@ -602,16 +608,52 @@
 		"selected_items":
 		[
 			[
+				"stat",
+				"Git: Status"
+			],
+			[
+				"pus",
+				"Git: Push"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"git pus",
+				"Git: Push"
+			],
+			[
+				"commi",
+				"Git: Commit"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"ga",
+				"Git: Add..."
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
 				"snipp",
 				"Snippet: ^"
 			],
 			[
 				"remo",
 				"Package Control: Remove Package"
-			],
-			[
-				"instal",
-				"Package Control: Install Package"
 			],
 			[
 				"git add",
@@ -623,10 +665,6 @@
 			],
 			[
 				"insta",
-				"Package Control: Install Package"
-			],
-			[
-				"install",
 				"Package Control: Install Package"
 			],
 			[
@@ -666,14 +704,6 @@
 				"SublimeLinter: Disable Linter"
 			],
 			[
-				"push",
-				"Git: Push"
-			],
-			[
-				"commi",
-				"Git: Commit"
-			],
-			[
 				"commit",
 				"Git: Commit"
 			],
@@ -692,10 +722,6 @@
 			[
 				"add",
 				"Git: Add..."
-			],
-			[
-				"stat",
-				"Git: Status"
 			],
 			[
 				"pu",
@@ -754,16 +780,8 @@
 				"Package Control: Install Package"
 			],
 			[
-				"remove",
-				"Package Control: Remove Package"
-			],
-			[
 				"git co",
 				"Git: Commit"
-			],
-			[
-				"git pus",
-				"Git: Push"
 			],
 			[
 				"gitstat",
@@ -795,6 +813,8 @@
 	},
 	"file_history":
 	[
+		"/home/igor/.config/sublime-text-3/Packages/PlainTasks/messages/Tutorial.todo",
+		"/home/igor/Matlab 8.01.desktop",
 		"/home/igor/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
 		"/home/igor/.config/sublime-text-3/Packages/Terminal/Default (Linux).sublime-keymap",
 		"/home/igor/Work/Thesis/MiscCode/MDP_Planner/parkings_graph.dat",
@@ -824,7 +844,6 @@
 		"/home/igor/.config/sublime-text-3/Packages/Git/Git.sublime-settings",
 		"/home/igor/.config/sublime-text-3/Packages/SublimeClang/Default.sublime-keymap",
 		"/home/igor/Work/Thesis/MiscCode/PythonScripts/find_positions_for_images.py",
-		"/home/igor/.config/sublime-text-3/Packages/PlainTasks/messages/Tutorial.todo",
 		"/home/igor/Work/Thesis/MiscCode/HOGclassifier/README.md",
 		"/home/igor/Work/Thesis/MiscCode/HOGclassifier/source/lasers_parser.cpp",
 		"/home/igor/Work/Thesis/MiscCode/HOGclassifier/source/temp_result_writer.h",
@@ -921,8 +940,7 @@
 		"/home/igor/Work/Thesis/MiscCode/HOGclassifier/source/svm.h",
 		"/home/igor/Work/Thesis/MiscCode/trainHOG/main.cpp",
 		"/home/igor/.config/sublime-text-3/Packages/User/pair.sublime-snippet",
-		"/home/igor/.config/sublime-text-3/Packages/User/cstr.sublime-snippet",
-		"/home/igor/Work/Thesis/CarData/DataFromGoogleImages/getimages.sh"
+		"/home/igor/.config/sublime-text-3/Packages/User/cstr.sublime-snippet"
 	],
 	"find":
 	{
@@ -941,6 +959,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"flag",
 			"values",
 			"parking_rows",
 			"indeces",
@@ -1067,8 +1086,7 @@
 			"Size",
 			"TRA",
 			"pos_left",
-			"HistType",
-			"histogram_"
+			"HistType"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1091,11 +1109,127 @@
 	"groups":
 	[
 		{
-			"selected": 7,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "carry_out_strategy.m",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1101,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1096,
+								1096
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Matlab/Matlab.tmLanguage"
+						},
+						"translation.x": -0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "plan.todo",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 318,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								136,
+								136
+							]
+						],
+						"settings":
+						{
+							"auto_name": "todo.txt",
+							"syntax": "Packages/PlainTasks/PlainTasks.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/igor/.config/sublime-text-3/Packages/PlainTasks/messages/Tutorial.todo",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3341,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PlainTasks/PlainTasks.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "solve_mdp.m",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1237,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1233,
+								1233
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Matlab/Matlab.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
 					"file": "formulate_problem.m",
 					"semi_transient": false,
 					"settings":
@@ -1124,40 +1258,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "solve_mdp.m",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1196,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								928,
-								928
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Matlab/Matlab.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
+					"buffer": 5,
 					"file": "form_cell_arrays.m",
 					"semi_transient": false,
 					"settings":
@@ -1183,11 +1288,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 6,
 					"file": "set_off_diag.m",
 					"semi_transient": false,
 					"settings":
@@ -1211,11 +1316,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 7,
 					"file": "add_vertical_connections.m",
 					"semi_transient": false,
 					"settings":
@@ -1239,11 +1344,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 8,
 					"file": "add_horizontal_connections.m",
 					"semi_transient": false,
 					"settings":
@@ -1329,67 +1434,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "carry_out_strategy.m",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 275,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								265,
-								265
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Matlab/Matlab.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "/home/igor/Matlab 8.01.desktop",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 284,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
+					"buffer": 9,
 					"file": "reward_from_dist.m",
 					"semi_transient": false,
 					"settings":
@@ -1413,7 +1462,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 6,
 					"type": "text"
 				}
 			]
