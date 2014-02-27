@@ -19,13 +19,15 @@ function solve_mdp(parking_lots_file_name, car_cost)
 	else
 		disp('P and R correct');
 	end
-	Discount = 0.99;
+	Discount = 0.9999999;
 	[V, Policy, iter, cpu_time] = mdp_policy_iteration (P, R, Discount);
 	StartState = 1;
 	Parked = false;
 	% for now generate the ground truth also here
-	GroundTruth = zeros(size(Policy));
-	GroundTruth(1:150) = FREE;
+	% it has 1 if a cell is free and 0 is occupied
+	GroundTruth = generate_ground_truth(parking_lots_file_name);
+	GroundTruth = [GroundTruth; FREE];
+
 	AllVisitedStates = [];
 	plot_strategies(coords, goal, Policy, P, AllVisitedStates);
 	while (Parked == false)

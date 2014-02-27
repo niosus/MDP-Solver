@@ -10,6 +10,7 @@ function [StatesVisited, P, parked] = carry_out_strategy(GroundTruth, StartState
 	parked = false;
 	CurrentState = StartState;
 	StatesVisited = [];
+	iter = 0;
 	while (parked == false)
 		Observations(CurrentState) = GroundTruth(CurrentState);
 		StatesVisited = [StatesVisited CurrentState];
@@ -22,7 +23,7 @@ function [StatesVisited, P, parked] = carry_out_strategy(GroundTruth, StartState
 		elseif (CurrentAction == TO_GOAL && GroundTruth(CurrentState) == OCCUPIED)
 			% we should update the matrix after this
 			% it means that we want to park in an occupied position
-			% we need to update P for replanning
+			% we need to update P for re-planning
 			P = update_occupancy_prob(StatesVisited, GroundTruth, P);
 			break;
 		else
@@ -36,6 +37,10 @@ function [StatesVisited, P, parked] = carry_out_strategy(GroundTruth, StartState
 				break;
 			end
 			CurrentState = Index;
+		end
+		iter+=1;
+		if (iter > 1000)
+			error('1000 iterations exceeded');
 		end
 	end
 end
