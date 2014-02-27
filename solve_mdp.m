@@ -26,8 +26,8 @@ function solve_mdp(parking_lots_file_name, car_cost)
 	% for now generate the ground truth also here
 	GroundTruth = zeros(size(Policy));
 	GroundTruth(1:150) = FREE;
-
 	AllVisitedStates = [];
+	plot_strategies(coords, goal, Policy, P, AllVisitedStates);
 	while (Parked == false)
 		[Visited, P, Parked] = carry_out_strategy(GroundTruth, StartState, Policy, P);
 		[V, Policy, iter, cpu_time] = mdp_policy_iteration (P, R, Discount, Policy);

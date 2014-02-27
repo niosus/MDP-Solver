@@ -8,7 +8,7 @@ function [coords, occupancy_vector, P, R, gap_period, parking_rows, parking_cols
     occupancy_vector = zeros(1, num_of_lots);
     for i = 1:num_of_lots
         str = fgetl(fid);
-        [x, y, p] = read_parking_lots(str); 
+        [x, y, p] = read_parking_lots(str);
         coords{i} = [x y];
         occupancy_vector(i) = p;
     end

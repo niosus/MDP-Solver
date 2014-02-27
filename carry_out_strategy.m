@@ -7,14 +7,14 @@ function [StatesVisited, P, parked] = carry_out_strategy(GroundTruth, StartState
 
 	Observations = zeros(size(Policy)) .- 1;
 
-	parked = false; 
+	parked = false;
 	CurrentState = StartState;
 	StatesVisited = [];
 	while (parked == false)
 		Observations(CurrentState) = GroundTruth(CurrentState);
 		StatesVisited = [StatesVisited CurrentState];
 		CurrentAction = Policy(CurrentState);
-		if (CurrentAction == TO_GOAL && GroundTruth(CurrentState) == FREE) 
+		if (CurrentAction == TO_GOAL && GroundTruth(CurrentState) == FREE)
 			% add a goal state to drawing
 			disp('TRYING TO PARK!!!')
 			StatesVisited = [StatesVisited 181];
@@ -30,7 +30,7 @@ function [StatesVisited, P, parked] = carry_out_strategy(GroundTruth, StartState
 			Index = find(ProbVector);
 			if (length(Index) > 1)
 				error(['this should not happen']);
-				disp(ProbVector)	
+				disp(ProbVector)
 			end
 			if (Index == CurrentState)
 				break;
