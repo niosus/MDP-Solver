@@ -1,5 +1,5 @@
 %% solve_mdp: a small function to solve MDPs
-function solve_mdp(parking_lots_file_name, car_cost)
+function solve_mdp(parking_lots_file_name, ground_truth_file, car_cost)
 	global FREE = 1
 	global OCCUPIED = 0
 	global UP = 1;
@@ -25,7 +25,7 @@ function solve_mdp(parking_lots_file_name, car_cost)
 	Parked = false;
 	% for now generate the ground truth also here
 	% it has 1 if a cell is free and 0 is occupied
-	GroundTruth = generate_ground_truth(parking_lots_file_name);
+	GroundTruth = generate_ground_truth(ground_truth_file);
 	GroundTruth = [GroundTruth; FREE];
 
 	AllVisitedStates = [];
