@@ -1,5 +1,5 @@
 function [P, R, gap_period, parking_rows, parking_cols] = init_P_R(str)
-   [misc, numbers] = strread (str, "%s%n");
+   [misc, numbers] = strread (str, '%s%n');
    parking_rows = numbers(1);
    parking_cols = numbers(2);
    gap_period = numbers(3);
@@ -9,6 +9,6 @@ function [P, R, gap_period, parking_rows, parking_cols] = init_P_R(str)
    for i=1:5
        P{i} = zeros(num);
        R{i} = zeros(num);
-   endfor
-endfunction
+   end
+end
 

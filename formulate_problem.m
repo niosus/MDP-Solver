@@ -14,23 +14,27 @@ function [P, R, coords, goal] = formulate_problem(filename, car_cost)
     % add horizontal connections
     [P, R] = add_horizontal_connections(P, R, parking_rows, car_cost);
 
+    % block some of the connections for testing
+    [P, R] = block_connections(P, R, parking_rows, car_cost);
+
     % define goal
     % for now - the last position + 10 meters to the right
-    goal = coords{end};
-    goal(1) += 10;
-    goal(2) -= 10;
+    goal = coords{15};
+    goal(1) = goal(1);
+    goal(2) = goal(2) + 10;
     % now add a vector with rewards for reaching goal
     rewards = reward_from_dist(coords, goal);
 
     % append rewards to R{TO_GOAL} as a column
+    R{TO_GOAL} = R{TO_GOAL} + eye(size(R{TO_GOAL})).*(-car_cost);
     R{TO_GOAL} = [R{TO_GOAL} rewards'];
 
     % set "park" action probabilities
-    P{TO_GOAL} += diag(1 - occupancy_vector);
+    P{TO_GOAL} = P{TO_GOAL} + diag(1 - occupancy_vector);
     P{TO_GOAL} = [P{TO_GOAL} occupancy_vector'];
 
     rsize = size(R{TO_GOAL});
-    rsize(1) += 1; % increment size
+    rsize(1) = rsize(1) + 1; % increment size
     for i = 1:5
         R{i} = resize(R{i}, rsize);
         P{i} = resize(P{i}, rsize);

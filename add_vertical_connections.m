@@ -5,7 +5,7 @@ function [P, R] = add_vertical_connections(P, R, parking_rows, car_cost)
 	global DOWN;
 
 	% vertical connections
-	indicators = ones(1, columns(R{UP}) - 1);
+	indicators = ones(1, size(R{UP}, 2) - 1);
     indicators(parking_rows:parking_rows:end) = 0;
     P{UP} = set_off_diag(P{UP}, 1, indicators);
     P{DOWN} = set_off_diag(P{DOWN}, -1, indicators);
@@ -16,6 +16,6 @@ function [P, R] = add_vertical_connections(P, R, parking_rows, car_cost)
     R{DOWN} = set_off_diag(R{DOWN}, -1, costs);
 
     % set the same cost for staying in one place as for moving
-    R{UP} += eye(size(R{UP})) .* (-car_cost);
-    R{DOWN} += eye(size(R{DOWN})) .* (-car_cost);
+    R{UP} = R{UP} + eye(size(R{UP})) .* (-car_cost);
+    R{DOWN} = R{DOWN} + eye(size(R{DOWN})) .* (-car_cost);
 end

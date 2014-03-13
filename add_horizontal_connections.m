@@ -6,7 +6,7 @@ function [P, R] = add_horizontal_connections(P, R, ParkingRows, CarCost)
     GAP_PERIOD = 2;
 
     % set indicator values
-    indicators = zeros(1, columns(R{1}) - ParkingRows);
+    indicators = zeros(1, size(R{1},2) - ParkingRows);
     indicators(1:ParkingRows:end) = 1;
     indicators(ParkingRows:ParkingRows:end) = 1;
 
@@ -15,12 +15,12 @@ function [P, R] = add_horizontal_connections(P, R, ParkingRows, CarCost)
     P{LEFT} = set_off_diag(P{LEFT}, -ParkingRows, indicators);
 
     % add horizontal middle connections
-    indeces = [1:columns(R{LEFT})];
+    indeces = [1:size(R{LEFT},2)];
     div_res = floor((indeces - 1) ./ ParkingRows);
     mod_res = mod(div_res, GAP_PERIOD);
     indeces = indeces(mod_res == 1);
     for i = indeces
-    	if (i + ParkingRows < columns(P{LEFT}))
+    	if (i + ParkingRows < size(P{LEFT},2))
     		P{RIGHT}(i, i + ParkingRows) = 1;
     		P{LEFT}(i + ParkingRows, i) = 1;
     	end
@@ -32,7 +32,7 @@ function [P, R] = add_horizontal_connections(P, R, ParkingRows, CarCost)
     R{LEFT} = set_off_diag(R{LEFT}, -ParkingRows, costs);
 
     % set the same cost for staying in one place as for moving
-    R{RIGHT} += eye(size(R{RIGHT})) .* (-CarCost);
-    R{LEFT} += eye(size(R{LEFT})) .* (-CarCost);
+    R{RIGHT} = R{RIGHT} + eye(size(R{RIGHT})) .* (-CarCost);
+    R{LEFT} = R{LEFT} + eye(size(R{LEFT})) .* (-CarCost);
 end
 

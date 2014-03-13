@@ -1,5 +1,5 @@
 function [coords, occupancy_vector, P, R, gap_period, parking_rows, parking_cols] = form_cell_arrays(filename)
-    printf('Writing coordinates to cell array\n');
+    disp('Writing coordinates to cell array\n');
     fid = fopen(filename);
     init_str = fgetl(fid);
     [P, R, gap_period, parking_rows, parking_cols] = init_P_R(init_str);

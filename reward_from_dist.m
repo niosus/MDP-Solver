@@ -5,5 +5,5 @@ function rewards = reward_from_dist(coords, goal)
     for i = 1:length(coords)
         dist = [dist get_distance(coords{i}, goal)];
     end
-    rewards = (max(dist) .- dist);
+    rewards = (max(dist) - dist);
 end
