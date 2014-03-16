@@ -5,5 +5,6 @@ Small todo:
   ✔ Update decision not only on the goal reach but on the observation @done (14-03-10 15:43)
   ✔ Maybe write a nice ground truth generator; @done (14-03-10 15:43)
   ✔ Ground truth from real data needed @done (14-03-10 15:43)
+  ☐ still replan if found a place to park where we can park
 Further work:
   ✘ Compare the results (if can think about some other planner); @cancelled (14-02-27 11:33)

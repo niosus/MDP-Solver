@@ -18,6 +18,7 @@ function [StatesVisited, P, parked] = carry_out_strategy(GroundTruth, StartState
 		if (CurrentAction == TO_GOAL && GroundTruth(CurrentState) == FREE)
 			% add a goal state to drawing
 			disp('TRYING TO PARK!!!')
+			P = update_occupancy_prob(StatesVisited, GroundTruth, P);
 			StatesVisited = [StatesVisited 181];
 			parked = true;
 		elseif (CurrentAction == TO_GOAL && GroundTruth(CurrentState) == OCCUPIED)

@@ -1,9 +1,10 @@
 %% reward_from_dist: compute rewards from distance
-function rewards = reward_from_dist(coords, goal)
+function rewards = reward_from_dist(coords, goal, WalkSpeed)
 	rewards = zeros(1, length(coords));
     dist = [];
     for i = 1:length(coords)
         dist = [dist get_distance(coords{i}, goal)];
     end
     rewards = (max(dist) - dist);
+    rewards = rewards./WalkSpeed;
 end

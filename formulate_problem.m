@@ -1,37 +1,38 @@
-
 % This function formulates the problem for further
 % use with the MDP{1} solver
 
-function [P, R, coords, goal] = formulate_problem(filename, car_cost)
+function [P, R, Coordinates, Goal] = formulate_problem(Filename, DriveSpeed, WalkSpeed, WaitingTime)
 
     global TO_GOAL LEFT RIGHT UP DOWN
 
-    [coords, occupancy_vector, P, R, gap_period, parking_rows, parking_cols] = form_cell_arrays(filename);
+    [Coordinates, OccupancyVector, P, R, GapPeriod, ParkingRows, ParkingCols] = form_cell_arrays(Filename);
 
-    % vertical connections
-    [P, R] = add_vertical_connections(P, R, parking_rows, car_cost);
+    % add vertical connections and rewards
+    [P, R] = add_vertical_connections(P, R, ParkingRows, DriveSpeed, WaitingTime);
 
     % add horizontal connections
-    [P, R] = add_horizontal_connections(P, R, parking_rows, car_cost);
+    [P, R] = add_horizontal_connections(P, R, ParkingRows, DriveSpeed, WaitingTime);
 
     % block some of the connections for testing
-    [P, R] = block_connections(P, R, parking_rows, car_cost);
+    [P, R] = block_connections(P, R, ParkingRows, DriveSpeed);
 
-    % define goal
+    % define Goal
     % for now - the last position + 10 meters to the right
-    goal = coords{15};
-    goal(1) = goal(1);
-    goal(2) = goal(2) + 10;
-    % now add a vector with rewards for reaching goal
-    rewards = reward_from_dist(coords, goal);
+    Goal = Coordinates{end};
+    Goal(1) = Goal(1);
+    Goal(2) = Goal(2) + 10;
+    % now add a vector with rewards for reaching Goal
+    rewards = reward_from_dist(Coordinates, Goal, WalkSpeed);
 
     % append rewards to R{TO_GOAL} as a column
-    R{TO_GOAL} = R{TO_GOAL} + eye(size(R{TO_GOAL})).*(-car_cost);
     R{TO_GOAL} = [R{TO_GOAL} rewards'];
 
+    % if we try to park but do not succeed, we lose time
+    R{TO_GOAL} = R{TO_GOAL} + eye(size(R{TO_GOAL})).*(-WaitingTime);
+
     % set "park" action probabilities
-    P{TO_GOAL} = P{TO_GOAL} + diag(1 - occupancy_vector);
-    P{TO_GOAL} = [P{TO_GOAL} occupancy_vector'];
+    P{TO_GOAL} = P{TO_GOAL} + diag(1 - OccupancyVector);
+    P{TO_GOAL} = [P{TO_GOAL} OccupancyVector'];
 
     rsize = size(R{TO_GOAL});
     rsize(1) = rsize(1) + 1; % increment size
@@ -39,8 +40,8 @@ function [P, R, coords, goal] = formulate_problem(filename, car_cost)
         R{i} = resize(R{i}, rsize);
         P{i} = resize(P{i}, rsize);
         % set the diagonal non-set elements to 1
-        difference = 1 - sum(P{i}, 2);
-        P{i} = P{i} + diag(difference);
+        Difference = 1 - sum(P{i}, 2);
+        P{i} = P{i} + diag(Difference);
         R{i} = sparse(R{i});
         P{i} = sparse(P{i});
     end
