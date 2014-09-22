@@ -5,7 +5,7 @@ function [StatesVisited, P, parked] = carry_out_strategy(GroundTruth, StartState
 	global OCCUPIED FREE
 	global TO_GOAL
 
-	Observations = zeros(size(Policy)) .- 1;
+	Observations = zeros(size(Policy)) - 1;
 
 	parked = false;
 	CurrentState = StartState;
@@ -39,7 +39,7 @@ function [StatesVisited, P, parked] = carry_out_strategy(GroundTruth, StartState
 			end
 			CurrentState = Index;
 		end
-		iter+=1;
+		iter=iter + 1;
 		if (iter > 1000)
 			error('1000 iterations exceeded');
 		end

@@ -13,5 +13,6 @@ function plotPDF(fig_h, name, plotSize)
 	% set(fig_h, 'PaperPosition', [0 0 plotSize]);
 
 	set(fig_h, 'renderer', 'painters');
-	print(fig_h, '-dpdf', name);
+    % set(fig_h, 'renderer', 'zbuffer');
+	print(fig_h, '-dpdf', '-r600', name);
 end

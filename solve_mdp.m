@@ -40,10 +40,9 @@ function solve_mdp(ParkingOccupancyFile, GroundTruthOccupancyFile, DriveSpeed, W
 	GroundTruth = [GroundTruth; FREE];
 
 
-
 	AllVisitedStates = [];
 
-	plot_states(Coordinates, GoalState, P, GraphNamePrefix);
+	% plot_states(Coordinates, GoalState, P, GraphNamePrefix);
 
 	Iteration = 1;
 	while (Parked == false)
@@ -52,6 +51,6 @@ function solve_mdp(ParkingOccupancyFile, GroundTruthOccupancyFile, DriveSpeed, W
 		StartState = Visited(end);
 		plot_strategies(Coordinates, GoalState, Policy, P, AllVisitedStates, Visited, GroundTruth, GraphNamePrefix, Iteration);
 		AllVisitedStates = [AllVisitedStates Visited];
-		Iteration++;
+		Iteration=Iteration+1;
 	end
 end
