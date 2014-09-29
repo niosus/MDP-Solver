@@ -14,18 +14,19 @@ function [StatesVisited, P, parked] = carry_out_strategy(GroundTruth, StartState
 	while (parked == false)
 		Observations(CurrentState) = GroundTruth(CurrentState);
 		StatesVisited = [StatesVisited CurrentState];
+        P = update_occupancy_prob(StatesVisited, GroundTruth, P);
 		CurrentAction = Policy(CurrentState);
 		if (CurrentAction == TO_GOAL && GroundTruth(CurrentState) == FREE)
 			% add a goal state to drawing
 			disp('TRYING TO PARK!!!')
-			P = update_occupancy_prob(StatesVisited, GroundTruth, P);
+% 			P = update_occupancy_prob(StatesVisited, GroundTruth, P);
 			StatesVisited = [StatesVisited 181];
 			parked = true;
 		elseif (CurrentAction == TO_GOAL && GroundTruth(CurrentState) == OCCUPIED)
 			% we should update the matrix after this
 			% it means that we want to park in an occupied position
 			% we need to update P for re-planning
-			P = update_occupancy_prob(StatesVisited, GroundTruth, P);
+% 			P = update_occupancy_prob(StatesVisited, GroundTruth, P);
 			break;
 		else
 			ProbVector = P{CurrentAction}(CurrentState, :);
@@ -38,10 +39,10 @@ function [StatesVisited, P, parked] = carry_out_strategy(GroundTruth, StartState
 				break;
 			end
 			CurrentState = Index;
-		end
+        end
 		iter=iter + 1;
-		if (iter > 1000)
-			error('1000 iterations exceeded');
+		if (iter > 2)
+			break;
 		end
 	end
 end

@@ -1,5 +1,5 @@
 %% solve_mdp: a small function to solve MDPs
-function solve_mdp(ParkingOccupancyFile, GroundTruthOccupancyFile, DriveSpeed, WalkSpeed, WaitingTime, GraphNamePrefix)
+function solve_mdp(ParkingOccupancyFile, GroundTruthOccupancyFile, DriveSpeed, WalkSpeed, WaitingTime, GraphNamePrefix, Artificial)
 	global FREE
 	global OCCUPIED
 	global UP
@@ -33,8 +33,11 @@ function solve_mdp(ParkingOccupancyFile, GroundTruthOccupancyFile, DriveSpeed, W
 	GroundTruth = generate_ground_truth(GroundTruthOccupancyFile);
 
 	% artificial ground truth for testing
-	GroundTruth(1:60) = FREE;
-	GroundTruth(61:end) = OCCUPIED;
+    if (Artificial == 1)
+        GroundTruth(1:60) = FREE;
+        GroundTruth(61:end) = OCCUPIED;
+    end
+        
 
 	% set the goal state as FREE
 	GroundTruth = [GroundTruth; FREE];

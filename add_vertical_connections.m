@@ -4,7 +4,7 @@ function [P, R] = add_vertical_connections(P, R, parking_rows, CarSpeed, Waiting
 	global UP;
 	global DOWN;
 
-    VerticalDist = 2.5 % meters
+    VerticalDist = 2.5; % meters
 
 	% add vertical connections
 	indicators = ones(1, size(R{UP}, 2) - 1);
